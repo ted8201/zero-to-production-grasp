@@ -1,0 +1,226 @@
+# Robotics Grasping Research Documentation - Git Ignore Rules
+# Created: 2025-10-09
+
+# ============================================================================
+# System and Editor Cache Files (防止再次出现缓存文件污染)
+# ============================================================================
+
+# VS Code / Cursor cache
+Cache/
+GPUCache/
+Code Cache/
+DawnCache/
+DawnGraphiteCache/
+DawnWebGPUCache/
+Crashpad/
+blob_storage/
+Local Storage/
+Session Storage/
+Shared Dictionary/
+
+# Editor logs and temporary files
+logs/
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# VS Code / Cursor user data
+User/
+CachedData/
+CachedProfilesData/
+Dictionaries/
+languagepacks.json
+machineid
+Preferences
+Network Persistent State
+Cookies
+Cookies-journal
+Trust Tokens
+Trust Tokens-journal
+
+# Backup directories
+Backups/
+sentry/
+
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# ============================================================================
+# ROS
+# ============================================================================
+
+# ROS build artifacts
+build/
+devel/
+install/
+.catkin_workspace
+.catkin_tools/
+
+# ROS 2 build artifacts
+log/
+install/
+build/
+.colcon/
+
+# ============================================================================
+# IDE and Editor
+# ============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================================
+# Documentation Build Output (if using doc generators)
+# ============================================================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ============================================================================
+# Temporary and Lock Files
+# ============================================================================
+
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+temp/
+tmp/
+.temp/
+.tmp/
+
+# ============================================================================
+# Git specific
+# ============================================================================
+
+# Git patches
+*.patch
+*.diff
+
+# ============================================================================
+# Research-specific (optional, uncomment if needed)
+# ============================================================================
+
+# Large model files (uncomment if you store models)
+# *.pth
+# *.ckpt
+# *.pb
+# *.h5
+# *.onnx
+
+# Large datasets (uncomment if you store datasets)
+# datasets/
+# data/
+# *.bag  # ROS bag files
+
+# Experimental results (uncomment if you want to ignore)
+# experiments/
+# results/
+# outputs/
+
+# ============================================================================
+# END OF .gitignore
+# ============================================================================
+
